@@ -1,4 +1,5 @@
-# Udacity ToDos Serverless project
+# Udacity Serverless project
+A Servess application which gives you a functionality of keeping record of your todos.You can update, delete and upload images to your todos tasks.
 
 ## Project Components
 - Restful API (Lambda Functions, API Gateway and DynamoDb)
