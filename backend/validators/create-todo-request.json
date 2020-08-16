@@ -3,13 +3,17 @@
     "title": "create-todo",
     "type":"object",
     "properties": {
-        "name":{
-            "type":"string"
+        "name": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9]+$",
+          "minLength": 5,
+          "maxLength": 20
         },
-        "dueDate":{
-            "type":"string"
+        "dueDate": {
+         "type": "string",
+         "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         }
-    },
+      },
     "required":[
         "name",
         "dueDate"
