@@ -24,7 +24,7 @@ npm run start
 ## Deplyment details
 API Endpoint
 ```
-https://kmylpopbsc.execute-api.us-east-1.amazonaws.com/dev
+https://8mcl2nhmz2.execute-api.us-east-1.amazonaws.com/dev
 ```
 Postman Collection
 ```
